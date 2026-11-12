@@ -220,10 +220,13 @@ export default function App() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.1 }}
-              className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tight text-white leading-tight sm:leading-none max-w-3xl"
+              className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tight text-white leading-tight sm:leading-[1.15] max-w-3xl"
             >
-              배움과 도전으로 <br className="sm:hidden" />
-              <span className="text-accent underline decoration-accent/40 underline-offset-8">나만의 삶</span>을 만들어가는 사람
+              배움과 도전으로
+              <br />
+              <span className="text-accent underline decoration-accent/40 underline-offset-8">나만의 삶을</span>
+              <br />
+              만들어가는 사람
             </motion.h1>
 
             <motion.p
