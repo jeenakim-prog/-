@@ -226,7 +226,7 @@ export default function App() {
               <br />
               <span className="text-accent underline decoration-accent/40 underline-offset-8">나만의 삶을</span>
               <br />
-              만들어가는 사람
+              만들어 가는 삶
             </motion.h1>
 
             <motion.p
